@@ -38,11 +38,75 @@ img {
 	display: block;
 }
 
-.container {
-	width: 1260px;
+.planet {
+    background-image:
+	linear-gradient(243deg, rgba(183,209,206,0.3253676470588235) 0%, rgba(183,209,206,0.4206057422969187) 100%),
+		url(../img/map.jpg);
+	height: 762px;
+	background-size: cover;
+}
+
+.earth {
+	width: 100%;
 	margin: 0 auto;
 }
 
 .header {
 	padding: 15px 0;
+}
+
+.continents {
+    display: flex;
+}
+
+.continent__america1 {
+    width: 550px;
+    height: 375px;
+    background-color: blue;
+    opacity: 0.6;
+}
+
+.continent__america1 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.america1__country {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 330px;
+    height: 250px;
+    margin: 0 50px;
+}
+
+.country__usa {
+    display: flex;
+    align-items: center;
+}
+
+.country__usa h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.country__cities h2 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0;
 }
