@@ -55,6 +55,7 @@ img {
 .continents {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .continent__america1 {
@@ -332,4 +333,202 @@ img {
     font-family: "Myriad Pro", Arial, sans-serif;
     text-align: center;
     margin-left: 12px;
+}
+
+@media (max-width: 545px) {
+    .continent__america1 {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__america1 h1 {
+        font-size: 19px;
+    }
+    .america1__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__usa h2 {
+        font-size: 15px;
+    }
+    .country__usa img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 545px) {
+    .continent__europe {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__europe h1 {
+        font-size: 19px;
+    }
+    .europe__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__ukr h2 {
+        font-size: 15px;
+    }
+    .country__ukr img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 545px) {
+    .continent__asia {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__asia h1 {
+        font-size: 19px;
+    }
+    .asia__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__china h2 {
+        font-size: 15px;
+    }
+    .country__china img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 545px) {
+    .continent__america2 {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__america2 h1 {
+        font-size: 19px;
+    }
+    .america2__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__argentina h2 {
+        font-size: 15px;
+    }
+    .country__argentina img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 545px) {
+    .continent__africa {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__africa h1 {
+        font-size: 19px;
+    }
+    .africa__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__egypt h2 {
+        font-size: 15px;
+    }
+    .country__egypt img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 545px) {
+    .continent__australia {
+        width: 250px;
+        height: 215px;
+    }
+    .continent__australia h1 {
+        font-size: 19px;
+    }
+    .australia__country {
+        width: 165px;
+        height: 125px;
+        margin-left: 40px;
+    }
+    .country__astrl h2 {
+        font-size: 15px;
+    }
+    .country__astrl img {
+        width: 50px;
+        height: 31px;
+    }
+    .country__cities h2 {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+    .city1 h3 {
+        font-size: 15px;
+    }
+    .city1 img {
+        width: 28px;
+        height: 17px;
+    }
 }
