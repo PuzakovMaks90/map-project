@@ -42,8 +42,9 @@ img {
     background-image:
 	linear-gradient(243deg, rgba(183,209,206,0.3253676470588235) 0%, rgba(183,209,206,0.4206057422969187) 100%),
 		url(../img/map.jpg);
-	height: 762px;
+	height: 850px;
 	background-size: cover;
+    width: 95%;
 }
 
 .earth {
@@ -51,18 +52,15 @@ img {
 	margin: 0 auto;
 }
 
-.header {
-	padding: 15px 0;
-}
-
 .continents {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .continent__america1 {
-    width: 550px;
-    height: 375px;
-    background-color: blue;
+    width: 500px;
+    height: 430px;
+    background-color: #003562;
     opacity: 0.6;
 }
 
@@ -81,10 +79,10 @@ img {
 .america1__country {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 330px;
     height: 250px;
-    margin: 0 50px;
+    margin-left: 80px;
+    background-color: #2a2a2a;
 }
 
 .country__usa {
@@ -94,7 +92,6 @@ img {
 
 .country__usa h2 {
     font-size: 30px;
-    text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
     font-family: "Myriad Pro", Arial, sans-serif;
@@ -106,7 +103,233 @@ img {
     font-size: 26px;
     color: #ffffff;
     font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: start;
+    font-weight: 400;
+    padding: 20px 15px;
+}
+
+.city1 {
+    display: flex;
+    padding: 10px 15px;
+}
+
+.city1 h3 {
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "Myriad Pro", Arial, sans-serif;
     text-align: center;
     font-weight: 400;
-    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.continent__europe {
+    width: 500px;
+    height: 430px;
+    background-color: #620360;
+    opacity: 0.6;
+}
+
+.continent__europe h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.europe__country {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: #2a2a2a;
+}
+
+.country__ukr {
+    display: flex;
+    align-items: center;
+}
+
+.country__ukr h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.continent__asia {
+    width: 500px;
+    height: 430px;
+    background-color: #9d0a0e;
+    opacity: 0.6;
+}
+
+.continent__asia h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.asia__country {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: #2a2a2a;
+}
+
+.country__china {
+    display: flex;
+    align-items: center;
+}
+
+.country__china h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.continent__america2 {
+    width: 500px;
+    height: 430px;
+    background-color: OliveDrab;
+    opacity: 0.6;
+}
+
+.continent__america2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.america2__country {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: #2a2a2a;
+}
+
+.country__argentina {
+    display: flex;
+    align-items: center;
+}
+
+.country__argentina h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.continent__africa {
+    width: 500px;
+    height: 430px;
+    background-color: #fff100;
+    opacity: 0.6;
+}
+
+.continent__africa h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.africa__country {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: #2a2a2a;
+}
+
+.country__egypt {
+    display: flex;
+    align-items: center;
+}
+
+.country__egypt h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.continent__australia {
+    width: 500px;
+    height: 430px;
+    background-color: #f7931d;
+    opacity: 0.6;
+}
+
+.continent__australia h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+}
+
+.australia__country {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    margin-left: 100px;
+    background-color: #2a2a2a;
+}
+
+.country__astrl {
+    display: flex;
+    align-items: center;
+}
+
+.country__astrl h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    text-align: center;
+    margin-left: 12px;
 }
